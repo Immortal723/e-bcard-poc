@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Security Research Notice</title>
+<style>
+  body { font-family: -apple-system, "Segoe UI", Helvetica, Arial, sans-serif;
+         background:#f6f8fa; color:#24292f; display:flex; min-height:100vh;
+         margin:0; align-items:center; justify-content:center; }
+  .card { background:#fff; border:1px solid #d0d7de; border-radius:12px;
+          padding:48px; max-width:640px; box-shadow:0 4px 16px rgba(0,0,0,.05); }
+  h1 { font-size:22px; margin:0 0 16px; }
+  p  { font-size:15px; line-height:1.6; margin:8px 0; }
+  code { background:#eff1f3; padding:2px 6px; border-radius:6px; font-size:13px; }
+  .foot { margin-top:24px; font-size:13px; color:#57606a; border-top:1px solid #d0d7de; padding-top:16px; }
+</style>
+</head>
+<body>
+  <div class="card">
+    <h1>Subdomain Takeover — Security Research PoC</h1>
+    <p>This page is served from <code>e-bcard.eventx.io</code> and is controlled
+       by a third-party GitHub account for <strong>authorized security testing</strong>.</p>
+    <p>The subdomain's DNS record points to GitHub Pages while no Pages site
+       claims it and the domain is not verified — allowing any GitHub user to
+       take control. This marker page demonstrates the vulnerability.</p>
+    <p><strong>No malicious content is hosted here and no user data is collected.</strong></p>
+    <div class="foot">
+      <p>Researcher: <code>Immortal723</code> &middot;
+         Contact: <code>你liuchuanfeng723@gmail.com</code></p>
+      <p>Reported via the eventx SRC program &middot; PoC will be removed after verification.</p>
+    </div>
+  </div>
+</body>
+</html>
